@@ -2,7 +2,6 @@ name: main
 on:
   workflow_dispatch:
   schedule:
-    # IMPORTANT: Set cron job in UTC timezone
     - cron:  '1 13 * * *'
 env:
     "classID" : ${{ secrets.ClassID }}
@@ -18,8 +17,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
-      - uses: actions/checkout@v3
+        uses: actions/checkout@v2
       - name: Set up env
+        uses: actions/setup-python@v2
       - run: pip install requests
              pip install beautifulsoup4
       - name: Checkin
