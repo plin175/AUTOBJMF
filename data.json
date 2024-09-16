@@ -1,10 +1,10 @@
 {
-    "classID" : "",         //班级魔方的班级ID号
-    "x" : "",               //经度
-    "y" : "",               //纬度
-    "h" : "",               //海拔
-    "time" : 100,           //请求间隔时间
+    "classID" : "",
+    "x" : "", 
+    "y" : "",
+    "h" : "",
+    "time" : 100,
     "cookie" : "", 
-    "settime" : "",         //预设签到时间
-    "sendkey" : ""          //微信公众号Server酱的sendkey
+    "settime" : "",
+    "sendkey" : ""
 }
