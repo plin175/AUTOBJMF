@@ -25,8 +25,8 @@
 ### 获取班级ID和cookie
 * **step1** 下载Fiddler
 * **step2** 打开微信中的班级魔方，注意要打开到打卡界面里
-* **step3** 在Fiddler中找到网址[](http://k8n.cn/student/course/)，这个网址后面跟着的五位数字就是班级ID
-* **step4** 在Fiddler中点击这个网址[](http://k8n.cn/student/course/‘你的班级ID’/punchs),在右侧界面找到Raw选项，点击即可看见cookie
+* **step3** 在Fiddler中找到网址[http://k8n.cn/student/course/]，这个网址后面跟着的五位数字就是班级ID
+* **step4** 在Fiddler中点击这个网址[http://k8n.cn/student/course/‘你的班级ID’/punchs]，在右侧界面找到Raw选项，点击即可看见cookie
 
 ### 获取经纬度和海拔
 通过高德地图坐标拾取器获取：https://lbs.amap.com/tools/picker
